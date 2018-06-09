@@ -1,0 +1,44 @@
+li
+{
+    float: left;
+    padding-right: 70px;
+    background-color: yellow;
+}
+h1.TituloSite
+{
+  background-color: red;
+}
+
+h1.CabecalhoArtigo
+{
+  background-color: brown;
+}
+
+p1.RodapeTituloArtigo
+{
+  background-color: brown;
+}
+article.TextoArtigo
+{
+  width: 1300px;
+  margin:inherit;
+  background: purple;
+  font-size: 45px;
+  position:relative;
+}
+h1.RodapeArtigo
+{
+  width: 1300px;
+  margin:inherit;
+  background-color: black;
+  font-size:45px;
+}
+aside {
+  height: 100%;
+  width: 500px;
+  left: 69%;
+  font-size:45px;
+  position:relative;
+  background-color: blue;
+  position: absolute;
+}
