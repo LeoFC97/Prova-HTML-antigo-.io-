@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 15/06</title>
+  </head>
+
+  <body>
+  	<form></form>
+
+  </body>
+
+
+  <!DOCTYPE html>
+<html>
+<body>
+
+<h2>Google buscador</h2>
+
+<form action="https://www.google.com/search" method="get">
+  Sua Busca:<br>
+  <input type="text" name="q" value="" placeholder="Digite sua pesquisa aqui" autofocus size="60">
+  <br>
+  <input type="submit" name="submit">
+  <input type="checkbox" name="Termos_de_uso_checkbox" > Eu li  e concordo com os termos de uso
+  <br>
+  <input id="nome_pais" type="text" name="nome_pais" list="paises" />
+  <datalist id="paises">
+    <option value="Afeganistao">
+    <option value="Argentina">
+    <option value="Arabia">
+    <option value="Africa do sul">
+  </datalist>
+
+  <br>
+  <br>
+  <p>Checkbox e radioButton</p>
+
+    <textarea readonly rows="10" cols="15" maxlength="500" >
+        Concordo com os termos de uso do site seguinte
+    </textarea>
+    <input type="checkbox" name="test" value="Marque aqui" > Marque aqui <br><br>
+
+
+
+  Voce deseja trabalhar como webmaster?
+  <br>
+  <input type="radio" name="opcao" value="Sim" > Sim<br>
+  <input type="radio" name="opcao" value="Nao"> Nao<br>
+  <input type="radio" name="opcao" value="Talvez"> Talvez<br>
+  <input tyspe="radio" name="opcao" value="Quem sabe"> Quem sabe<br>
+  <br><br><br><br>
+
+<p>Menu sem size</p>
+  <select name="Menu">
+    <optgroup label="Linguagens para prog web">
+      <option value="1">JavaScript</option>
+      <option value="2">HTML</option>
+      <option value="3">PHP</option>
+     <optgroup label="Linguagens para Desktop">
+      <option value="4">C</option>
+      <option value="5">C++</option>
+    </optgroup>
+  </select>
+
+<br><br><br><br>
+
+<p>Menu  com size</p>
+
+  <select name="Menu" size="4">
+    <optgroup label="Linguagens para prog web">
+      <option value="1">JavaScript</option>
+      <option value="2">HTML</option>
+      <option value="3">PHP</option>
+     <optgroup label="Linguagens para Desktop">
+      <option value="4">C</option>
+      <option value="5">C++</option>
+    </optgroup>
+  </select>
+
+  <br> <br>
+  <p>Upar arquivos</p>
+  <br> <br>
+  <input type="file" name="subir arquivo">
+  <br><br><br>
+
+  <fieldset>
+    <legend>Informacoes pessoais</legend>
+    <label for="Nome">Nome:</label>
+    <input type="text" name="Nome" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{0-9}">
+    <label for="E-mail">E-mail:</label>
+    <input type="text" name="E-mail">
+    <input type="submit" name="submit">
+  </fieldset>
+
+</form> 
+</body>
+</html>
+
