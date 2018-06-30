@@ -1,0 +1,26 @@
+body
+{
+	background: url(http://i3.kym-cdn.com/entries/icons/facebook/000/017/108/faustooooooooooooooooooo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+div:hover
+{
+	background :url(https://i.ytimg.com/vi/6SiKHUoxok4/maxresdefault.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+}
+h1:hover
+{	
+	background-image: url(https://media1.giphy.com/media/eVy46EWyclTIA/giphy.gif);
+	background-repeat: no-repeat;
+	background-size:20%;
+}
+h2:hover
+{
+	background-image: url(https://media2.giphy.com/media/M4C0jeAkK12DK/giphy.gif);
+	background-repeat: no-repeat;
+	background-size:20%;
+}
