@@ -1,0 +1,36 @@
+img.logo {
+    margin-left:  auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 35%;
+    width: 20%;
+ }
+ body
+ {
+   background-color: white;
+ }
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+li { /*atributos so da tabela li*/
+    float: left;
+    margin: auto;
+    /*padding: 20px;*/
+    align-content: center;
+
+}
+li a { /* aleterar atributos do a dentro do li*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {  /* mudar a cor quando o mouse fica em cima*/
+    background-color: #111111;
+}
