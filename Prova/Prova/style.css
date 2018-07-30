@@ -1,0 +1,67 @@
+header
+{
+  background-color: lightcoral;
+}
+#brasil
+{
+  width:60px;
+  height:60px;
+  float: right;
+  margin-top: 240px;
+  margin-right: 0px;
+}
+nav
+{
+  background-color: grey;
+}
+
+nav li
+{
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 220px;
+}
+nav li:hover
+{
+  background-color: white;
+}
+#primeiraFLor
+{
+  width: 650px;
+  height: 150px;
+}
+figcaption {
+    display: block;
+}
+h1
+{
+  font-size: 40px;
+}
+article p
+{
+
+}
+footer
+{
+  margin-top: 25%;
+}
+
+.grupoSuperior{
+  width: 65%;
+  float: left;
+  margin-right: 25px;
+}
+
+aside{
+  background-color: grey;
+  margin-left: 1500px;
+}
+
+.limpar{
+  clear: both;
+}
+
+section{
+  width: 30%;
+  float: left;
+}
