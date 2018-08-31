@@ -6,7 +6,6 @@ function enviar()
     var d2 = new Date(document.getElementById("dataS").value);
     var milesimos = Math.abs(d1.getTime() - d2.getTime());
     var dias = milesimos / (1000 * 3600 * 24);
-    alert(dias);	
 
 
 
