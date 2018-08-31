@@ -1,0 +1,140 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <h1>Preencha o formulario abaixo</h1>
+  <form name="form" method="POST" action="#">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <table>
+        <tr>
+          <td><label for ="nome">Nome:</label></td>
+          <td><input id="nome" required type="text" name="nome" size="20"></td>
+          <td><label for="sobrenome">Sobrenome:</label></td>
+          <td><input id="sobrenome" required type="text" name="sobrenome" size="20"></td>
+        </tr><tr>
+          <td><label for="sexo">Sexo:</label></td>
+          <td><input id="sexo" required type="radio" name="sexo" value="masculino">Masculino<br/>
+          <input required type="radio" name="sexo" value="feminino">Feminino<br/></td>
+        </tr><tr>
+            <td><label for="nasc">Nascimento:</label></td>
+            <td><input required type="text" name="dia" placeholder="dd" size="4" maxlength="2">
+            <input required type="text" name="mes" placeholder="mm" size="4" maxlength="2">
+            <input required type="text" name="ano" placeholder="aaaa" size="4" maxlength="4"></td>
+        </tr><tr>
+            <td><label  for="rg">RG:</label></td>
+            <td><input  id="rg" required type="text" name="rg" size="9" maxlength="9" ></td>
+        </tr><tr>
+            <td><label for="cpf">CPF:</label></td>
+            <td><input id="cpf1" required type="text" name="cpf1"size="9" maxlength="9" > -
+            <input id="cpf2" required type="text" name="cpf2"size="2" maxlength="2" ></td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Dados de Endereço</legend>
+      <table>
+        <tr>
+          <td><label for ="rua">Rua:</label></td>
+          <td><input id="rua" required type="text" name="rua" size="20" maxlength="50"></td>
+        </tr><tr>
+          <td><label for="numero">Numero:</label></td>
+          <td><input id="numero" required type="text" name="numero"size="4" maxlength="6"></td>
+        </tr><tr>
+          <td><label for="bairro">Bairro:</label></td>
+          <td><input id="bairro" required type="text" name="bairro"size="20" maxlength="30"></td>
+        </tr><tr>
+          <td><label for="estado">Estado:</label></td>
+          <td><select name="estado">
+            <option value="ac">Acre</option>
+            <option value="al">Alagoas</option>
+            <option value="am">Amazonas</option>
+            <option value="ap">Amapá</option>
+            <option value="ba">Bahia</option>
+            <option value="ce">Ceará</option>
+            <option value="df">Distrito Federal</option>
+            <option value="es">Espírito Santo</option>
+            <option value="go">Goiás</option>
+            <option value="ma">Maranhão</option>
+            <option value="mt">Mato Grosso</option>
+            <option value="ms">Mato Grosso do Sul</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="pa">Pará</option>
+            <option value="pb">Paraíba</option>
+            <option value="pr">Paraná</option>
+            <option value="pe">Pernambuco</option>
+            <option value="pi">Piauí</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="rn">Rio Grande do Norte</option>
+            <option value="ro">Rondônia</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="rr">Roraima</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="se">Sergipe</option>
+            <option value="sp">São Paulo</option>
+            <option value="to">Tocantins</option>
+          </select></td>
+        </tr><tr>
+          <td><label for="cidade">Cidade:</label>
+          <td><input id="cidade" required type="text" name="cidade"size="20" maxlength="50"></td>
+        </tr><tr>
+          <td><label for="cep">CEP:</label>
+          <td><input id="cep1" required type="text" name="cep1" size="5" maxlength="5"> -
+          <input id="cep2" required type="text" name="cep2" size="3" maxlength="3"></td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Dados de Login</legend>
+      <table>
+        <tr>
+          <td><label for ="email">Email:</label></td>
+          <td><input id="em1" required type="text" name="email" size="20" maxlength="40"></td>
+        </tr><tr>
+          <td><label for ="emailC">Confirmar E-mail:</label></td>
+          <td><input id="em2" required type="text" name="emailC" size="20" maxlength="40"></td>
+        </tr><tr>
+          <td><label for="logUser">Login de usuário:</label></td>
+          <td><input required type="text" name="login" size="20" maxlength="20"></td>
+        </tr><tr>
+          <td><label for="senha">Senha:</label></td>
+          <td><input id="psw1" required type="password" name="senha" size="20"></td>
+        </tr><tr>
+          <td><label for="senhaC">Confirmar senha:</label></td>
+          <td><input id="psw2" required type="password" name="senhaC" size="20"></td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Pesquisa de Interesse:</legend>
+      <table>
+        <tr>
+          <td><label for ="q1">Você deseja trabalhar como Webmastar?</label></td>
+          <td><input required type="radio" name="q1" value="sim"/>Sim<br>
+            <input required type="radio" name="q1" value="nao"/>Não<br>
+            <input required type="radio" name="q1" value="talvez"/>Talvez<br>
+            <input required type="radio" name="q1" value="quemSabe"/>Quem sabe</td>
+        </tr><tr>
+          <td><label for="q2">O que você deseja aprender?</label></td>
+          <td><input type="checkbox" name="q2" value="html">HTML<br>
+            <input type="checkbox" name="q2" value="css">CSS<br>
+            <input type="checkbox" name="q2" value="java">Java<br>
+            <input type="checkbox" name="q2" value="django">Django</td>
+        </tr><tr>
+          <td><label for="comentario">Deixe seu comentário:</label></td>
+          <td><textarea required rows="10" cols="40" maxlength="500"></textarea></td>
+        </tr>
+      </table>
+    </fieldset>
+    <table>
+      <tr>
+        <td><button type="submit" onclick="validar()" value="Enviar" >Enivar</button></td>
+        <td><button type="reset" value="Limpar">Limpar </button></td>
+      </tr>
+    </table>
+  </form> 
+</body>
+</html>
