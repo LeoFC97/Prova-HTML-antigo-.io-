@@ -1,0 +1,35 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <h1>Formulario hotel</h1>
+  <form name="form" method="POST" action="#">
+    <fieldset>
+      <legend>Dados</legend>
+      <table>
+        <tr>
+          <td><label for ="nome">Nome:</label></td>
+          <td><input id="nome" required type="text" name="nome" size="20" pattern="^[a-zA-Z]+$"></td>
+        </tr><tr>
+            <td><label for ="DataE">Data de Entada:</label></td>
+            <td><input  id="dataE" required type="date" name="dataEntrada">
+            <td><label for ="DataS">Data de Saida:</label></td>
+            <td><input  id="dataS" required type="date" name="dataEntrada">
+            <td><label for ="email">Email:</label></td>
+            <td><input id="em1" required type="text" name="email" size="20" maxlength="40" pattern="^[a-zssA-Z0-9.]+@[a-z]{3}$"></td>
+            <td><label for ="emailC">Confirme o Email:</label></td>
+            <td><input id="em2" required type="text" name="email" size="20" maxlength="40" pattern="^[a-zA-Z0-9.]+@[a-z]{3}$"></td>
+        </tr><tr>
+            <td><label for ="QuantQuartos">Quantidade de quartos:</label></td>
+            <td><input id="qtquart" required type="text" name="QuantQuartos" size="20" pattern="^[0-9]+$"></td>
+            <td><label for ="QuantidaeHospedes">Numero de Hospedes EXTRAS:</label></td>
+            <td><input required id="qthosp" required type="text" name="QuantidaeHospedes" size="20" pattern="^[01234]{1}"></td>
+        </tr>
+      </table>
+      <button onclick="enviar()" >Reservar</button>          
+    </fieldset>
+</body>
+</html>
